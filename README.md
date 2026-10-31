@@ -1,4 +1,4 @@
-# SimpleHTTPd
+# Simple HTTP Server
 
 A small HTTP file server written in C. It serves a folder over HTTP to browsers and `curl`, using only the C
 library and POSIX system calls: sockets, `fork`, signals, `realpath`, `opendir` and `read`/`write`.
